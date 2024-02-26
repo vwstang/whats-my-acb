@@ -1,0 +1,8 @@
+# Python caching
+__pycache__/
+
+# Virtualenvs
+.venv
+
+# Database
+db/

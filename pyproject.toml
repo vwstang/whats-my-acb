@@ -4,12 +4,13 @@ version = "0.1.0"
 description = ""
 authors = ["vwstang <vwstang6@gmail.com>"]
 readme = "README.md"
-package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.11"
 fastapi = "^0.110.0"
 uvicorn = {extras = ["standard"], version = "^0.27.1"}
+sqlalchemy = "^2.0.27"
+black = "^24.2.0"
 
 
 [build-system]

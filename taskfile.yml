@@ -14,4 +14,4 @@ tasks:
   start:
     desc: "Start uvicorn server"
     cmds:
-      - uvicorn main:app --reload
+      - poetry run uvicorn whats-my-acb.main:app --reload
