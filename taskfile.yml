@@ -1,0 +1,17 @@
+version: '3'
+
+silent: true
+
+tasks:
+  default:
+    cmds:
+      - task -l
+
+  build:
+    cmds:
+      - go build -v -i main.go
+
+  start:
+    desc: "Start uvicorn server"
+    cmds:
+      - uvicorn main:app --reload
